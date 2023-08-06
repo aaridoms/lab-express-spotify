@@ -4,8 +4,10 @@
             {{#each this.images.[1]}}
                 <img src="{{this}}" alt="">
             {{/each}}
-            <h1>{{this.name}}</h1>
-            <a href="/albums/{{this.id}}/tracks"><button>View Tracks</button></a>
+            <div class="card-color">
+                <h1>{{this.name}}</h1>
+                <a href="/albums/{{this.id}}/tracks"><button>View Tracks</button></a>
+            </div>
         </div>
     {{/each}}
 </div>
